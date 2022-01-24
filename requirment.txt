@@ -3,3 +3,6 @@ Emoji
 type option
 color
 vibrate
+
+Dark mode
+video option
