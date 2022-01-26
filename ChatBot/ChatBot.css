@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fbfdfd;
+}
+
+.chatbox {
+    width: 370px;
+    min-width: 390px;
+    height: 530px;
+    background: #FFB6C1;
+    padding: 10px;
+    margin: 20px auto;
+    box-shadow: 0 3px #ccc;
+}
+
+.chatlog {
+    padding: 10px;
+    width: 100%;
+    height: 450px;
+    background: whitesmoke;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chatlog::-webkit-scrollbar{
+    width: 10px;
+}
+
+.chatlog::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #b7cefa;
+}
+
+#headline {
+    min-height: auto;
+    text-align-last: center;
+}
+
+#text {
+    width: 100%;
+    min-width: 100%;
+    line-height: 160%;
+    padding: 10px;
+    margin: 10px 10px 0;
+    border-radius: 10px;
+    border-bottom: 50%;
+    font-size: 15px;
+}
+
+.chatform {
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+.chatform input{
+    background: #fbfbfb;
+    width: 300px;
+    height: 40px;
+    border: 3px solid #eee;
+    border-radius:  5px;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(92, 91, 91);
+}
+
+.chatform button{
+    width: 85px;
+    height: 39px;
+    margin: 0 6px;
+    border-radius: 2px;
+    background: #d1825d9c;
+    font-size: 25px;
+    color: #fff;
+    box-shadow: 0 3px 0 #f0e9e9;
+    cursor: pointer;
+    
+}
+
+.chatform button :hover {
+background: #13c8d9;
+}
+
