@@ -1,0 +1,8 @@
+This is a chat Application
+Emoji
+type option
+color
+vibrate
+
+Dark mode
+video option
