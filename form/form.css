@@ -1,0 +1,37 @@
+
+table {
+    color: rgb(32, 32, 32);
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;  
+    border-radius: 5px;
+
+}
+
+#btn {
+    color: rgb(51, 51, 51);
+    background-color: rgb(118, 255, 232);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#editbtn
+{
+    background-color: rgba(41, 248, 0, 0.856);
+    color: rgb(0, 0, 0); 
+    width: 100px;
+    font-size: 16px;
+    height: 31px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#deletbtn
+{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    font-size: 16px;
+    height: 32px;
+    border-radius: 10px;
+    cursor: pointer;
+}
