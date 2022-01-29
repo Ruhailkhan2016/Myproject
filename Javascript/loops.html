@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <script>
+        //for loop
+        var a;
+        for(a = 1; a <= 10; a++ )
+        {
+            document.write("Hello, Ruhail Khan <br>")
+        }
+    </script>
+
+    <script>
+        // for in loop 
+
+        var obj = {
+            firstName : "yahoo",
+            lastName : "Baba",
+            Age        : 25,
+            Email : "ruhailkhan2016@gmail.com"
+        };
+
+        for (var key in obj)
+        {
+            document.write(key + " : " + obj[key] + "<br>");
+        }
+    </script>
+
+    <script>
+        //while loop
+        var a = 1;
+
+        document.write("<ul>");
+        while(a <= 10)
+        {
+            document.write("<li> "+ a +") Hello, Ruhail Khan</li>");
+            a = a + 1;
+        }
+        document.write("</ul>");
+    </script>
+    
+    <script>
+        //do while loop
+        var a =1;
+        document.write("<br>");
+        do{
+            document.write("<li>"+ a +") Hello, Ruhail Khan </li>");
+            a = a+1;
+        }
+        while(a <= 10)
+        document.write("</br>");
+    </script>
+
+    <script>
+
+        // fro each loop
+        var a = ["Ruhail", "Manish", "Rihan", "Manzar", "Hammad"];
+
+        a.forEach(function(value, index)
+        {
+            document.write(index + ":"+ value + "<br>");
+        });
+    </script>
+
+<script>
+
+    // fro each loop using function
+    var a = ["Ruhail", "Manish", "Rihan", "Manzar", "Hammad"];
+
+    a.forEach(loop);
+
+    function loop(value, index)
+    {
+        document.write(index + ":"+ value + "<br>");
+    }
+</script>
+</head>
+<body>
+    
+</body>
+</html>

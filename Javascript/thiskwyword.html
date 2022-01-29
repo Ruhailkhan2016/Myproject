@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+
+    <!-- <script>
+        // example of this keyword
+        let obj = {
+            firstName: "John",
+            lastName: "Doe",
+
+            getFullName: function () {
+                document.write(this.firstName + " " + this.lastName + "<br>");
+                console.log(this);
+            }
+        }
+
+        let obj1 = {
+            firstName: "Ruhail",
+            lastName: "Khan",
+
+            getFullName: function () {
+                document.write(this.firstName + " " + this.lastName);
+                console.log(this);
+            }
+        }
+
+        obj.getFullName();
+        obj1.getFullName();
+    </script> -->
+    <script>
+        let obj1 = {
+            firstName: "Ruhail",
+            lastName: "Khan",
+
+            getFullName: function () {
+
+                console.log(this);
+                document.write(this.firstName + " " + this.lastName +"<br><br>");
+            },
+
+            address:{
+                street : "123, Bajodi Tola",
+                city :    "Rampur",
+                getAddress : function()
+                {
+                    document.write(this.street + " " + this.city);
+                }
+            }
+        }
+
+        obj1.getFullName();
+        obj1.address.getAddress();
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
