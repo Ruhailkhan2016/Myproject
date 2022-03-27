@@ -1,0 +1,19 @@
+// access array element using pointer
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int arr[5] = {10, 20, 30, 40, 50};
+
+    int *ptr;
+
+    // ptr = &arr[0];
+    ptr = arr;
+    for (int i = 0; i < 5; i++)
+    {
+        cout << *ptr+i << endl;
+        cout << &ptr+i << endl;
+        
+    }
+}
